@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link href="./main.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		crossorigin="anonymous">
+
+	<title>Dayana</title>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a id="home_button" class="navbar-brand active" href="#about">Dayana Georgieva</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a id="about" class="nav-link " href="#about">About me</a>
+				</li>
+				<li class="nav-item active">
+					<a id="portfolio" class="nav-link" href="#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Development
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a id="development_record" class="dropdown-item" href="#development_record">Record</a>
+						<div class="dropdown-divider"></div>
+						<a id="development_plan" class="dropdown-item" href="#development_plan">Plan</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a id="assignments" class="nav-link " href="#assignments">Assignments</a>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+
+	<div id="container" class="container">
+	</div>
+
+	<!--PORTFOLIO -->
+	<div class="jumbotron invisible" id="portfolio_page">
+		<picture>
+			<!-- <source srcset="https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/18119264_1407265665977656_3817167233923333643_n.jpg?_nc_cat=111&_nc_oc=AQnS3uc1aYeMoUgr8VmFMUJL_GmS9tbpx7b4huZxS5uclMMDGviPS9BQf7ANi5suzoM&_nc_ht=scontent-frt3-2.xx&oh=a59f43af47063d3b004f51fd85cb6c3c&oe=5DC27C29" type="image/svg+xml"> -->
+			<img id="dani_pic"
+				src="https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/18119264_1407265665977656_3817167233923333643_n.jpg?_nc_cat=111&_nc_oc=AQnS3uc1aYeMoUgr8VmFMUJL_GmS9tbpx7b4huZxS5uclMMDGviPS9BQf7ANi5suzoM&_nc_ht=scontent-frt3-2.xx&oh=a59f43af47063d3b004f51fd85cb6c3c&oe=5DC27C29"
+				class="img-thumbnail" alt="Responsive image" height="50">
+		</picture>
+	</div>
+
+	<!-- ABOUT PAGE -->
+	<div class="jumbotron invisible" id="about_page">
+		<h1 class="display-4">Some info here</h1>
+		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
+			featured content or information.</p>
+		<hr class="my-4">
+		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		<a class="btn btn-primary btn-lg" href="#" role="button">Maybe link to linked in?</a>
+	</div>
+
+	<!-- DEVELOPMENT RECORD -->
+	<div class="invisible" id="development_record_page">
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">Key Dates</th>
+					<th scope="col">What did you do?</th>
+					<th scope="col">Why?</th>
+					<th scope="col">What did you learn from this?</th>
+					<th scope="col">How have/will you used/ use this? Any further action?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>asdfasdf</td>
+					<td>Otasdfasdfto</td>
+					<td>@masdfasdfdo</td>
+					<td>aasdfasdf</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>Jasdfasdfacob</td>
+					<td>Thoasdfasdfrnton</td>
+					<td>@asdfasdfat</td>
+					<td>Ottasdfasdfo</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>aasdfasdfa</td>
+					<td>asdfasdf asdf</td>
+					<td>@asfafasd</td>
+					<td>Otasdfasfdto</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div id="form_input" class="form-group invisible">
+		<tr>
+			<th scope="row">
+				<textarea class="form-control" id="col_1" rows="1"></textarea>
+			</th>
+			<td>
+				<textarea class="form-control" id="col_1" rows="1"></textarea>
+			</td>
+			<td>
+				<textarea class="form-control" id="col_1" rows="1"></textarea>
+			</td>
+			<td>
+				<textarea class="form-control" id="col_1" rows="1"></textarea>
+			</td>
+			<td>
+				<textarea class="form-control" id="col_1" rows="1"></textarea>
+			</td>
+			<td>
+				<a href="#" style="text-decoration: underline" class="active">Add</a>
+			</td>
+		</tr>
+	</div>
+
+	<div id="single_row" class="invisible">
+
+	</div>
+
+	<!-- DEVELOPMENT PLAN -->
+	<div class="invisible" id="development_plan_page">
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">What do I want/need to learn?</th>
+					<th scope="col">What will I do to achieve this?</th>
+					<th scope="col">What resources or support will I need?</th>
+					<th scope="col">What will my success criteria be?</th>
+					<th scope="col">Target dates for review and completion</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>asdfasdf</td>
+					<td>Otasdfasdfto</td>
+					<td>@masdfasdfdo</td>
+					<td>aasdfasdf</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>Jasdfasdfacob</td>
+					<td>Thoasdfasdfrnton</td>
+					<td>@asdfasdfat</td>
+					<td>Ottasdfasdfo</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>aasdfasdfa</td>
+					<td>asdfasdf asdf</td>
+					<td>@asfafasd</td>
+					<td>Otasdfasfdto</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<!-- DEVELOPMENT PLAN -->
+	<div class="invisible" id="assignments_page">
+		<table class="table">
+			<thead class="thead-dark">
+				<tr>
+					<th scope="col">Name of the subject </th>
+					<th scope="col">Title of the assignment </th>
+					<th scope="col">Evaluation</th>
+					<th scope="col">File</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>asdfasdf</td>
+					<td>Otasdfasdfto</td>
+					<td>@masdfasdfdo</td>
+				</tr>
+				<tr>
+					<th scope="row">2</th>
+					<td>Jasdfasdfacob</td>
+					<td>Thoasdfasdfrnton</td>
+					<td>@asdfasdfat</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>aasdfasdfa</td>
+					<td>asdfasdf asdf</td>
+					<td>@asfafasd</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="invisible" id="table_template">
+		<table class="table">
+			<thead id="thead_id" class="thead-dark">
+
+			</thead>
+			<tbody id="tbody_id">
+
+			</tbody>
+		</table>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="bundle.js"></script>
+</body>
+
+</html>
